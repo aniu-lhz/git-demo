@@ -1,5 +1,10 @@
 public class demo{
 	public static void main(String[] args){
 		System.out.println("hello world!");
+		sayHello();
+	}
+
+	public static void sayHello(){
+		System.out.println("Hello!");
 	}
 }
